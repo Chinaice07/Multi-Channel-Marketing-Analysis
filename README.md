@@ -1,14 +1,15 @@
 # Multi-Channel Marketing Analysis
 
 ## 📌 Project Overview
-This project explores the impact of various promotional budgets (TV, Radio, Social Media, and Influencers) on company sales. Using Python and Multiple Linear Regression, the goal is to identify which marketing channels are statistically significant drivers of revenue and to provide actionable recommendations for budget optimization.
+This project explores the impact of various promotional budgets (TV, Radio, Social Media, and Influencers) on company sales. Using Python and Multiple Linear Regression, the goal is to identify which marketing channels are statistically significant drivers of revenue and to provide actionable recommendations for budget optimization. Through thorough data ingestion, cleaning, exploratory visualization, and residual diagnostics, this project isolates the marketing channels with the absolute highest financial impact, providing a transparent, data-driven recommendation for corporate budget allocation.
 
-## 🎯 Objectives
+## 🎯 Project Goals
 - Perform Exploratory Data Analysis (EDA) to understand feature distributions and relationships.
 - Detect and handle multicollinearity using Variance Inflation Factor (VIF).
 - Build and refine a Multiple Linear Regression model using `statsmodels`.
 - Validate regression assumptions (Linearity, Normality, Homoscedasticity).
 - Interpret model coefficients to deliver strategic business insights.
+- Translate statistical metrics (($R^2$, coefficients, p-values) into non-technical corporate business intelligence.
 
 ## 📊 Dataset
 The dataset (`marketing_sales_data.csv`) contains 572 observations of historical marketing campaigns.
@@ -20,6 +21,7 @@ The dataset (`marketing_sales_data.csv`) contains 572 observations of historical
 
 ## 🛠️ Tools & Libraries
 - **Python**: Primary programming language.
+- **Juypter Lab**: Primary development environment
 - **Pandas**: Data manipulation and cleaning.
 - **Matplotlib & Seaborn**: Data visualization and diagnostic plots.
 - **Statsmodels**: Statistical modeling and regression analysis.
