@@ -9,7 +9,7 @@ This project explores the impact of various promotional budgets (TV, Radio, Soci
 - Build and refine a Multiple Linear Regression model using `statsmodels`.
 - Validate regression assumptions (Linearity, Normality, Homoscedasticity).
 - Interpret model coefficients to deliver strategic business insights.
-- Translate statistical metrics (($R^2$, coefficients, p-values) into non-technical corporate business intelligence.
+- Translate statistical metrics ($R^2$, coefficients, p-values) into non-technical corporate business intelligence.
 
 ## 📊 Dataset
 The dataset (`marketing_sales_data.csv`) contains 572 observations of historical marketing campaigns.
