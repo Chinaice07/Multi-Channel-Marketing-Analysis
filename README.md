@@ -28,7 +28,7 @@ The dataset (`marketing_sales_data.csv`) contains 572 observations of historical
 ```text
 ├── marketing_and_sales_data_evaluate_lr.csv   # Raw corporate marketing dataset
 ├── multiple_ regression_analysis.ipynb        # Analysis Notebook
-└── README.md                                  # statitical summary
+└── README.md                                  # Statitical summary
 ```
 
 ## 💻 Environment Setup & Installation
