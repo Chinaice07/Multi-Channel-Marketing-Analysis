@@ -28,9 +28,10 @@ The dataset (`marketing_sales_data.csv`) contains 572 observations of historical
 
 ## 🗂️ Repository Structure
 ```text
+├── README.md                                  # Project Overview and Analytical Findings
 ├── marketing_and_sales_data_evaluate_lr.csv   # Raw corporate marketing dataset
 ├── multiple_ regression_analysis.ipynb        # Analysis Notebook
-└── README.md                                  # Statitical summary
+└── multiple_ regression_analysis.pdf          # Analysis Notebook in LaTeX format
 ```
 
 ## 💻 Environment Setup & Installation
@@ -49,10 +50,12 @@ To execute this analysis in Jupyter Lab, follow these steps:
 This will open Jupyter Lab in your default browser. Navigate to `multiple_regression_analysis.ipynb` in the file browser and open it to begin the analysis.
 
 ## 📈 Key Findings
-1. **TV and Radio are the strongest drivers of sales.**
-2. **Social Media and Influencer marketing are statistically insignificant** in this dataset (p-values > 0.05) and were dropped from the final parsimonious model.
-3. **Model Performance**: The final model explains **90.4% of the variance** in Sales (Adjusted R-squared = 0.904).
-4. **Impact Breakdown**:
+1. **The Regression equation that best predict number of sales is given by:**
+   $\\text{Sales} =  64.9254 + 77.3156*X_{TV} + 2.9558 *X_{Radio}$
+2. **TV and Radio are the strongest drivers of sales.**
+3. **Social Media and Influencer marketing are statistically insignificant** in this dataset (p-values > 0.05) and were dropped from the final parsimonious model.
+4. **Model Performance**: The final model explains **90.4% of the variance** in Sales (Adjusted R-squared = 0.904).
+5. **Impact Breakdown**:
    - Upgrading the **TV** ad campaign by one tier (e.g., Low to Medium) is associated with an estimated increase in Sales of **77.32 million dollars**, holding Radio spend constant.
    - Every **$1 million increase** in **Radio** spend is associated with an estimated increase in Sales of **2.96 million dollars**, holding TV tier constant.
 
